@@ -19,7 +19,7 @@
 }
 
 .homepage-card-icon i {
-  font-size: 38px;
+  font-size: 32px;
   border-radius: 6px;
   overflow: hidden;
 }
@@ -27,4 +27,5 @@
 .homepage-card-icon-title {
   font-size: 14px;
   color: var(--secondary-color);
+  cursor: default;
 }

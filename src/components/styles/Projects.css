@@ -1,0 +1,25 @@
+/* .all-projects-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	flex-wrap: wrap;
+	margin-left: -35px;
+	margin-right: -35px;
+	border: solid 1px #000;
+} */
+
+/* .all-projects-project {
+	width: 80%;
+	box-sizing: border-box;
+	padding: 10px;
+	overflow: hidden;
+} */
+
+/* @media (max-width: 600px) {
+	.all-projects-project {
+		width: calc(100% / 2);
+	}
+} */

@@ -17,6 +17,20 @@
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 28px;
+	display: flex;
+	align-items: center;
+	column-gap: 8px;
+}
+
+.homepage-section-about-title {
+	font-size: 28px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  color: var(--primary-color);
+	/* display: flex;
+  align-items: center;
+  column-gap: 12px; */
+	margin-bottom: 0;
 }
 
 .homepage-socials {
@@ -38,7 +52,18 @@
 
 .homepage-first-area-right-side {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+}
+
+.about-subtitle {
+	font-size: 22px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  color: var(--primary-color);
+	display: flex;
+  align-items: center;
+  column-gap: 12px;
+	margin-top: 0;
 }
 
 .homepage-image-container {

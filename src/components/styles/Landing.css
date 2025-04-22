@@ -2,10 +2,13 @@
 
 .homepage-container {
 	margin-top: 130px;
-	padding: 25px 0px 25px;
+	padding-top: 25px;
 }
 
 .homepage-projects {
-	flex-basis: 300px;
-	padding-top: 40px;
+	padding-top: 90px;
+}
+
+.homepage-contact {
+	padding-top: 90px;
 }

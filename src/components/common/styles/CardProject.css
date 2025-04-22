@@ -20,14 +20,12 @@
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   border-radius: 1rem;
-  border: 1px solid transparent;
 }
 
 .card-project-article-container:hover .card-project-image-div  {
   transform: translateY(-0.25rem);
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
-  border-color: #4b5563;
-  background-color: rgba(31, 41, 55, 0.5); /* gray-800/50 */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(31, 41, 55, 0.2);
 }
 
 .card-project-image {
@@ -94,6 +92,7 @@
   margin-top: 0.5rem;
   color: var(--secondary-color);
   font-family: var(--primary-font);
+  font-weight: 300;
 }
 
 /* body.dark .card-project-description {

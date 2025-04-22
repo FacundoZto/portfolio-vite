@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaUserCircle  } from 'react-icons/fa';
+import { FaCode } from "react-icons/fa6";
 import CardIcons from './common/cardIcons';
 import INFO from "../data/user";
 import './styles/About.css';
@@ -12,9 +13,10 @@ const About = () => {
         </div>
 
         <div className="homepage-subtitle-name">
+          <FaUserCircle  size={22} />
           {INFO.main.name}
         </div>
-
+        <h2 className='homepage-section-about-title'>About Me</h2>
         <div className="subtitle homepage-subtitle">
           {INFO.homepage.description}
         </div>
@@ -25,26 +27,27 @@ const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FaEnvelope size={24} className="homepage-social-icon" />
+            <FaEnvelope size={22} className="homepage-social-icon" />
           </a>
           <a
             href={INFO.socials.linkedin}
             target="_blank"
             rel="noreferrer"
           >
-            <FaLinkedin size={24} className="homepage-social-icon" />
+            <FaLinkedin size={22} className="homepage-social-icon" />
           </a>
           <a
             href={INFO.socials.github}
             target="_blank"
             rel="noreferrer"
           >
-            <FaGithub size={24} className="homepage-social-icon" />
+            <FaGithub size={22} className="homepage-social-icon" />
           </a>
         </div>
       </div>
 
       <div className="homepage-first-area-right-side">
+        <h3 className="about-subtitle"><FaCode size={26} />My Technology Stack</h3>
         <div className="homepage-image-container">
           <div className="homepage-image-wrapper">
             {

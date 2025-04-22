@@ -3,7 +3,7 @@ import { IoIosLink } from "react-icons/io";
 import './styles/CardProject.css';
 
 const CardProject = (props) => {
-  const { logo, title, description, linkText, github, demo, image, tags } = props;
+  const { title, description, github, demo, image, tags } = props;
 
   return (
     <>

@@ -1,0 +1,64 @@
+@import '../../index.css';
+
+.contact {
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	opacity: 0.8;
+	height: 100%;
+}
+.contact:hover {
+  background: #fafafa;
+  opacity: 1;
+  transition: background-color 0.3s ease-in-out;
+}
+.contact:hover .contact-link {
+  color: var(--link-color);
+  transition: color 0.3s ease-in-out;
+}
+
+.contact a {
+	text-decoration: none;
+}
+
+.contact-container {
+	padding: 30px;
+}
+
+.contact-logo {
+	width: 30px;
+}
+
+.contact-logo img {
+	width: 100%;
+}
+
+.contact-title {
+	font-family: var(--secondary-font);
+	color: var(--primary-color);
+	font-size: 16px;
+	padding-top: 15px;
+	margin-bottom: 1em;
+	font-weight: 700;
+}
+
+.contact-description {
+	color: var(--secondary-color);
+}
+
+.contact-link {
+	display: flex;
+	align-items: center;
+	color: var(--secondary-color);
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+.contact-link-icon {
+	padding-left: 5px;
+	font-size: 13px;
+}
+
+.contact-link-text {
+	padding-left: 20px;
+	font-weight: 700;
+}

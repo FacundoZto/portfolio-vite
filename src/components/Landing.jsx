@@ -2,7 +2,6 @@ import NavBar from './NavBar';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
-import Footer from './Footer';
 import './styles/Landing.css';
 
 const Landing = () => {
@@ -27,10 +26,6 @@ const Landing = () => {
               <Works />
             </div>
           </div> */}
-
-          <div className="page-footer">
-            <Footer />
-          </div>
 
         </div>
       </div>

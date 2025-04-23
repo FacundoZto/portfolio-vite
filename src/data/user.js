@@ -1,11 +1,14 @@
 import dhestudio from "../assets/dhestudio.png";
+import movies from '../assets/movies.png';
+import moondo from '../assets/moondo.png';
+import dogs from '../assets/dogs.png';
 
 const INFO = {
 	main: {
 		title: "",
 		name: "Facundo Zerbato",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		email: "",
+		logo: "",
 	},
 
 	socials: {
@@ -64,24 +67,16 @@ const INFO = {
 	homepage: {
 		title: "Full Stack Developer",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
-	},
-
-	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I am a Full Stack Developer with experience in building scalable and efficient web applications using various frameworks and technologies. I consider myself a committed and collaborative individual with a strong inclination toward teamwork. Currently, I am focused on projects that help reinforce acquired concepts, learn new technologies, and seek new challenges where I can add value and grow professionally.",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "DH Estudio",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			github: "https://github.com",
-			demo: "https://github.com",
+				"App web for an accounting firm using Vite + React, Bootstrap for UI design, and Formik + Yup for form validation.The backend was built with Node.js, Express, and Nodemailer, allowing emails to be sent via the contact form.",
+			github: "https://github.com/FacundoZto/estudio-dh-app",
+			demo: "https://estudiodh.onrender.com/",
 			image: dhestudio,
 			tags: [
 				{
@@ -112,100 +107,74 @@ const INFO = {
 		},
 
 		{
-			title: "Project 2",
+			title: "Movies",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			github: "https://github.com",
-			demo: "https://github.com",
-			image: dhestudio,
+				"App web for movie browsing using Typescript, Next.js and Tailwind CSS, consuming data from the TMDb API. Users can view movie details such as synopsis, release date, and ratings with a responsive interface.",
+			github: "https://github.com/FacundoZto/movie-app",
+			demo: "https://movie-nextjs-mdb.vercel.app/",
+			image: movies,
 			tags: [
 				{
-					icon: "devicon-react-original colored",
-					name: "ReactJs",
+					icon: "devicon-typescript-plain colored",
+					name: "TypeScript",
 				},
 				{
-					icon: "devicon-bootstrap-plain colored",
-					name: "Bootstrap",
+					icon: "devicon-nextjs-line colored",
+					name: "Next.js",
 				},
 				{
-					icon: "",
-					name: "Formik",
+					icon: "devicon-tailwindcss-original colored",
+					name: "Tailwind CSS",
 				},
-				{
-					icon: "devicon-nodejs-plain colored",
-					name: "NodeJs",
-				},
-				{
-					icon: "devicon-express-original colored",
-					name: "Express",
-				},
-				{
-					icon: "",
-					name: "Nodemailer",
-				}
 			],
 		},
 
 		{
-			title: "Project 3",
+			title: "Moondo",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			github: "https://github.com",
-			demo: "https://github.com",
-			image: dhestudio,
+				"Responsive landing page built with React, Typescript, CSS modules and Framer Motion delivering a dynamic and engaging user experience. It showcases sections for about, services, destinations, details, and contact.",
+			github: "https://github.com/FacundoZto/TravelProject",
+			demo: "https://moondo.vercel.app/",
+			image: moondo,
 			tags: [
 				{
 					icon: "devicon-react-original colored",
 					name: "ReactJs",
 				},
 				{
-					icon: "devicon-bootstrap-plain colored",
-					name: "Bootstrap",
+					icon: "devicon-typescript-plain colored",
+					name: "TypeScript",
+				},
+				{
+					icon: "devicon-css3-plain colored",
+					name: "CSS",
 				},
 				{
 					icon: "",
-					name: "Formik",
+					name: "Framer Motion",
 				},
-				{
-					icon: "devicon-nodejs-plain colored",
-					name: "NodeJs",
-				},
-				{
-					icon: "devicon-express-original colored",
-					name: "Express",
-				},
-				{
-					icon: "",
-					name: "Nodemailer",
-				}
 			],
 		},
 
 		{
-			title: "Project 4",
+			title: "Dogs app",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			github: "https://github.com",
-			demo: "https://github.com",
-			image: dhestudio,
+				"Web application that allows the user to perform filtering, sorting, creation via form, and searches by consuming data from an API and the local database. Technologies used: React, Redux, JavaScript, Node.js, Express, Sequelize, CSS, PostgreSQL.",
+			github: "https://github.com/FacundoZto/Proyecto-Dogs",
+			demo: "https://dogs-ruddy-delta.vercel.app/",
+			image: dogs,
 			tags: [
 				{
 					icon: "devicon-react-original colored",
 					name: "ReactJs",
 				},
 				{
-					icon: "devicon-bootstrap-plain colored",
-					name: "Bootstrap",
+					icon: "devicon-redux-original colored",
+					name: "Redux",
 				},
 				{
-					icon: "",
-					name: "Formik",
+					icon: "devicon-javascript-plain colored",
+					name: "JavaScript",
 				},
 				{
 					icon: "devicon-nodejs-plain colored",
@@ -216,45 +185,8 @@ const INFO = {
 					name: "Express",
 				},
 				{
-					icon: "",
-					name: "Nodemailer",
-				}
-			],
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			github: "https://github.com",
-			demo: "https://github.com",
-			image: dhestudio,
-			tags: [
-				{
-					icon: "devicon-react-original colored",
-					name: "ReactJs",
-				},
-				{
-					icon: "devicon-bootstrap-plain colored",
-					name: "Bootstrap",
-				},
-				{
-					icon: "",
-					name: "Formik",
-				},
-				{
-					icon: "devicon-nodejs-plain colored",
-					name: "NodeJs",
-				},
-				{
-					icon: "devicon-express-original colored",
-					name: "Express",
-				},
-				{
-					icon: "",
-					name: "Nodemailer",
+					icon: "devicon-postgresql-plain-wordmark colored",
+					name: "PostgreSQL",
 				}
 			],
 		},

@@ -1,33 +1,53 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from 'react-icons/fa';
 import './styles/Contact.css';
 
 const Contact = () => {
   return (
-    <>
-      <h2>Connect</h2>
-      <div className="contact">
+    <footer className="contact-section">
+      <div className="contact-content">
+        <div className="contact-cards">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            role="link"
+            className="contact-link"
+            href='www.google.com'>
+            <FaLinkedin size={25} />
+            LinkedIn
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            role="link"
+            className="contact-link"
+            href='www.google.com'>
+            <FaGithub size={25} />
+            GitHub
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            role="link"
+            className="contact-link"
+            href='www.google.com'>
+            <FaEnvelope size={25} />
+            Email
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            role="link"
+            className="contact-link-cv"
+            href='www.google.com'>
+            Download CV
+            <FaDownload size={20} />
+          </a>
+        </div>
 
-          <div className="contact-container">
-            <div className="contact-logo">
-              <img alt="logo" />
-            </div>
-            <div className="contact-title">
-            <FaEnvelope size={24} />
-            </div>
-            <div className="contact-description">
-            <FaEnvelope size={24} className="homepage-social-icon" />
-            </div>
-            <div className="contact-link">
-              <div className="contact-link-icon">
-                Icono contact
-              </div>
-
-              <div className="contact-link-text">Icono contact</div>
-            </div>
-          </div>
- 
       </div>
-    </>
+    </footer>
+
+
   )
 };
 

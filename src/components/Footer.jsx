@@ -7,9 +7,6 @@ const Footer = () => {
 				<div className="footer-links">
 					<ul className="footer-nav-link-list">
 						<li className="footer-nav-link-item">
-							<a href="/">Home</a>
-						</li>
-						<li className="footer-nav-link-item">
 							<a href="/about">About</a>
 						</li>
 						<li className="footer-nav-link-item">

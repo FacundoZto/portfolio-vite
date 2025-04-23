@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from 'react-icons/fa';
+import CV from '../assets/Facundo.Zerbato.pdf';
 import './styles/Contact.css';
 
 const Contact = () => {
@@ -11,7 +12,7 @@ const Contact = () => {
             rel="noreferrer"
             role="link"
             className="contact-link"
-            href='www.google.com'>
+            href='https://www.linkedin.com/in/facundozerbato/'>
             <FaLinkedin size={25} />
             LinkedIn
           </a>
@@ -20,27 +21,28 @@ const Contact = () => {
             rel="noreferrer"
             role="link"
             className="contact-link"
-            href='www.google.com'>
+            href='https://github.com/FacundoZto'>
             <FaGithub size={25} />
             GitHub
           </a>
           <a
             target="_blank"
             rel="noreferrer"
-            role="link"
             className="contact-link"
-            href='www.google.com'>
+            href='mailto:zerbatofacundo@gmail.com'>
             <FaEnvelope size={25} />
             Email
           </a>
           <a
             target="_blank"
             rel="noreferrer"
-            role="link"
+            role="document"
             className="contact-link-cv"
-            href='www.google.com'>
+            href={CV}
+            download="FacundoZerbato"
+            >
             Download CV
-            <FaDownload size={20} />
+            <FaDownload size={18} />
           </a>
         </div>
 

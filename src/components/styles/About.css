@@ -82,3 +82,9 @@
 	row-gap: 30px;
 	column-gap: 15px;
 }
+
+@media (max-width: 768px) {
+	.homepage-image-wrapper {
+		justify-content: center;
+	}
+}

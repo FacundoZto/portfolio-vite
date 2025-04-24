@@ -61,5 +61,23 @@
   .contact-cards {
     flex-direction: column;
     gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .contact-link-cv {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-link {
+    font-size: 1rem;
+  }
+
+  .contact-content {
+    padding: 15px 1.5rem 0;
+  }
+
+  .contact-section {
+    padding-bottom: 65px;
   }
 }

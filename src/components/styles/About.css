@@ -27,10 +27,12 @@
   font-family: var(--primary-font);
   font-weight: 500;
   color: var(--primary-color);
-	/* display: flex;
-  align-items: center;
-  column-gap: 12px; */
 	margin-bottom: 0;
+}
+
+.homepage-subtitle-description {
+	width: 100%;
+	max-width: 720px;
 }
 
 .homepage-socials {

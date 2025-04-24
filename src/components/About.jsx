@@ -17,7 +17,7 @@ const About = () => {
           {INFO.main.name}
         </div>
         <h2 className='homepage-section-about-title'>About Me</h2>
-        <div className="subtitle homepage-subtitle">
+        <div className="subtitle homepage-subtitle-description">
           {INFO.homepage.description}
         </div>
 

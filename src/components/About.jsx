@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaUserCircle  } from 'react-icons/fa';
 import { FaCode } from "react-icons/fa6";
-import CardIcons from './common/cardIcons';
+import CardIcons from './common/CardIcons';
 import INFO from "../data/user";
 import './styles/About.css';
 

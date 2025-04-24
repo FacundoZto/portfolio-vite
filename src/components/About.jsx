@@ -26,7 +26,7 @@ const About = () => {
 
         <div className="homepage-socials">
           <a
-            href={INFO.socials.email}
+            href='mailto:zerbatofacundo@gmail.com'
             target="_blank"
             rel="noreferrer"
           >

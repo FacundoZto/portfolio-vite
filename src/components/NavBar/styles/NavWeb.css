@@ -1,4 +1,4 @@
-@import '../../index.css';
+@import '../../../index.css';
 
 .nav-container {
 	margin: 0;
@@ -38,11 +38,7 @@
 
 .nav-item {
 	font-weight: 600;
-	font-size: 90%;
-}
-
-.nav-item.active a {
-	color: var(--link-color) !important;
+	font-size: 16px;
 }
 
 .nav-item a {
@@ -55,20 +51,8 @@
 	transition: color 0.3s ease-in-out;
 }
 
-@media (max-width: 600px) {
-	.navbar {
-		margin-left: 25%;
-		margin-right: 25%;
-		width: 80%;
-		font-size: 80%;
-	}
-
-	.nav-background {
-		width: 80%;
-		height: 40px;
-	}
-
-	.nav-item {
-		font-weight: bold;
+@media (max-width: 768px) {
+	.nav-container {
+		display: none;
 	}
 }

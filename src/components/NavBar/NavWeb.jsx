@@ -8,13 +8,13 @@ const NavWeb = () => {
 
           <ul className='nav-list'>
             <li className="nav-item">
-              <a href="#about">About</a>
+              <a href="#about" data-aos="zoom-in">About</a>
             </li>
             <li className="nav-item">
-              <a href="#projects">Projects</a>
+              <a href="#projects" data-aos="zoom-in">Projects</a>
             </li>
             <li className="nav-item">
-              <a href="#contact">Contact</a>
+              <a href="#contact" data-aos="zoom-in">Contact</a>
             </li>
           </ul>
         </div>

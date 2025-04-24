@@ -7,7 +7,7 @@ const CardProject = (props) => {
 
   return (
     <>
-      <article className="card-project-article-container">
+      <article className="card-project-article-container" data-aos="fade-up">
         <div className="card-project-image-wrapper">
           <div className="card-project-image-div">
             <img

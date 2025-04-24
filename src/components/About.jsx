@@ -8,7 +8,10 @@ const About = () => {
   return (
     <div className="homepage-first-area">
       <div className="homepage-first-area-left-side">
-        <div className="title homepage-title">
+        <div 
+        className="title homepage-title"
+        data-aos="fade-right"
+        >
           {INFO.homepage.title}
         </div>
 

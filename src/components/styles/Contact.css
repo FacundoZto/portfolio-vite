@@ -12,7 +12,7 @@
   display: flex;
   gap: 4.5rem;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .contact-link {
@@ -59,9 +59,10 @@
 
 @media (max-width: 768px) {
   .contact-cards {
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 2rem;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
   }
 
   .contact-link-cv {
